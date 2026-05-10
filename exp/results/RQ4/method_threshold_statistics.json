@@ -1,0 +1,270 @@
+{
+  "vanilla": {
+    "high_compatibility": {
+      "threshold": ">=0.7",
+      "count": 4,
+      "pairs": [
+        {
+          "pair": "accuracy-recall",
+          "compatibility": 0.8743
+        },
+        {
+          "pair": "FPR-accuracy",
+          "compatibility": 0.8235
+        },
+        {
+          "pair": "PED-SPD",
+          "compatibility": 0.7482
+        },
+        {
+          "pair": "AOD-SPD",
+          "compatibility": 0.7358
+        }
+      ]
+    },
+    "low_compatibility": {
+      "threshold": "<=-0.07",
+      "count": 3,
+      "pairs": [
+        {
+          "pair": "SPD-accuracy",
+          "compatibility": -0.1172
+        },
+        {
+          "pair": "SPD-recall",
+          "compatibility": -0.0922
+        },
+        {
+          "pair": "EOD-accuracy",
+          "compatibility": -0.0703
+        }
+      ]
+    }
+  },
+  "reweighing": {
+    "high_compatibility": {
+      "threshold": ">=0.7",
+      "count": 2,
+      "pairs": [
+        {
+          "pair": "accuracy-recall",
+          "compatibility": 0.8803
+        },
+        {
+          "pair": "FPR-accuracy",
+          "compatibility": 0.8256
+        }
+      ]
+    },
+    "low_compatibility": {
+      "threshold": "<=-0.07",
+      "count": 6,
+      "pairs": [
+        {
+          "pair": "SPD-accuracy",
+          "compatibility": -0.1225
+        },
+        {
+          "pair": "SPD-recall",
+          "compatibility": -0.112
+        },
+        {
+          "pair": "EOD-accuracy",
+          "compatibility": -0.0805
+        },
+        {
+          "pair": "GIFVR-accuracy",
+          "compatibility": -0.0766
+        },
+        {
+          "pair": "EOD-recall",
+          "compatibility": -0.0715
+        },
+        {
+          "pair": "PED-recall",
+          "compatibility": -0.0707
+        }
+      ]
+    }
+  },
+  "flipping": {
+    "high_compatibility": {
+      "threshold": ">=0.7",
+      "count": 3,
+      "pairs": [
+        {
+          "pair": "accuracy-recall",
+          "compatibility": 0.8327
+        },
+        {
+          "pair": "FPR-accuracy",
+          "compatibility": 0.803
+        },
+        {
+          "pair": "AOD-SPD",
+          "compatibility": 0.7273
+        }
+      ]
+    },
+    "low_compatibility": {
+      "threshold": "<=-0.07",
+      "count": 5,
+      "pairs": [
+        {
+          "pair": "SPD-accuracy",
+          "compatibility": -0.1394
+        },
+        {
+          "pair": "SPD-recall",
+          "compatibility": -0.1259
+        },
+        {
+          "pair": "GIFVR-accuracy",
+          "compatibility": -0.0869
+        },
+        {
+          "pair": "EOD-accuracy",
+          "compatibility": -0.0843
+        },
+        {
+          "pair": "PED-recall",
+          "compatibility": -0.0827
+        }
+      ]
+    }
+  },
+  "blindness": {
+    "high_compatibility": {
+      "threshold": ">=0.7",
+      "count": 3,
+      "pairs": [
+        {
+          "pair": "accuracy-recall",
+          "compatibility": 0.9101
+        },
+        {
+          "pair": "FPR-accuracy",
+          "compatibility": 0.8514
+        },
+        {
+          "pair": "AOD-SPD",
+          "compatibility": 0.7134
+        }
+      ]
+    },
+    "low_compatibility": {
+      "threshold": "<=-0.07",
+      "count": 6,
+      "pairs": [
+        {
+          "pair": "SPD-accuracy",
+          "compatibility": -0.1263
+        },
+        {
+          "pair": "SPD-recall",
+          "compatibility": -0.1245
+        },
+        {
+          "pair": "PED-recall",
+          "compatibility": -0.0962
+        },
+        {
+          "pair": "EOD-accuracy",
+          "compatibility": -0.0887
+        },
+        {
+          "pair": "GIFVR-accuracy",
+          "compatibility": -0.0864
+        },
+        {
+          "pair": "EOD-recall",
+          "compatibility": -0.0835
+        }
+      ]
+    }
+  },
+  "fairsmote": {
+    "high_compatibility": {
+      "threshold": ">=0.7",
+      "count": 2,
+      "pairs": [
+        {
+          "pair": "FPR-accuracy",
+          "compatibility": 0.7268
+        },
+        {
+          "pair": "accuracy-recall",
+          "compatibility": 0.722
+        }
+      ]
+    },
+    "low_compatibility": {
+      "threshold": "<=-0.07",
+      "count": 7,
+      "pairs": [
+        {
+          "pair": "SPD-accuracy",
+          "compatibility": -0.15
+        },
+        {
+          "pair": "SPD-recall",
+          "compatibility": -0.1196
+        },
+        {
+          "pair": "PED-recall",
+          "compatibility": -0.1126
+        },
+        {
+          "pair": "GIFVR-accuracy",
+          "compatibility": -0.0852
+        },
+        {
+          "pair": "PED-accuracy",
+          "compatibility": -0.0839
+        },
+        {
+          "pair": "EOD-accuracy",
+          "compatibility": -0.078
+        },
+        {
+          "pair": "EOD-recall",
+          "compatibility": -0.0706
+        }
+      ]
+    }
+  },
+  "maat": {
+    "high_compatibility": {
+      "threshold": ">=0.7",
+      "count": 2,
+      "pairs": [
+        {
+          "pair": "accuracy-recall",
+          "compatibility": 0.8993
+        },
+        {
+          "pair": "FPR-accuracy",
+          "compatibility": 0.8436
+        }
+      ]
+    },
+    "low_compatibility": {
+      "threshold": "<=-0.07",
+      "count": 3,
+      "pairs": [
+        {
+          "pair": "SPD-accuracy",
+          "compatibility": -0.1143
+        },
+        {
+          "pair": "SPD-recall",
+          "compatibility": -0.078
+        },
+        {
+          "pair": "GIFVR-accuracy",
+          "compatibility": -0.074
+        }
+      ]
+    }
+  }
+}

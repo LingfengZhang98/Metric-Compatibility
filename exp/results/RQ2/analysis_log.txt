@@ -1,0 +1,110 @@
+Reading and aggregating data...
+Successfully read 15120 component files
+Missing files: 0
+
+Creating violin plot...
+
+Violin plot saved to: /home/exp/projects/zlf/hi4tradeoff/exp/results/RQ2/contribution_by_order_violinplot.png
+============================================================
+Data Statistics
+============================================================
+
+Low Order:
+  Group Fairness vs Utility: 1051680 contributions
+    Mean: -0.0001, Std: 0.0096
+    Median: 0.0000
+    Min: -0.4387, Max: 0.9482
+    Q1: -0.0000, Q3: 0.0000
+  Individual Fairness vs Utility: 525840 contributions
+    Mean: -0.0001, Std: 0.0058
+    Median: 0.0000
+    Min: -0.3809, Max: 0.6774
+    Q1: -0.0000, Q3: 0.0000
+  Group Fairness vs Individual Fairness: 701120 contributions
+    Mean: 0.0017, Std: 0.0288
+    Median: 0.0000
+    Min: -0.6859, Max: 0.9747
+    Q1: 0.0000, Q3: 0.0000
+  Group Fairness vs Group Fairness: 525840 contributions
+    Mean: 0.0023, Std: 0.0307
+    Median: 0.0000
+    Min: -0.7687, Max: 0.9857
+    Q1: 0.0000, Q3: 0.0000
+  Individual Fairness vs Individual Fairness: 87640 contributions
+    Mean: 0.0015, Std: 0.0289
+    Median: 0.0000
+    Min: -0.4625, Max: 0.9497
+    Q1: 0.0000, Q3: 0.0000
+  Utility vs Utility: 262920 contributions
+    Mean: 0.0036, Std: 0.0555
+    Median: 0.0000
+    Min: -0.3540, Max: 0.9991
+    Q1: -0.0000, Q3: 0.0000
+
+Middle Order:
+  Group Fairness vs Utility: 13648320 contributions
+    Mean: -0.0000, Std: 0.0004
+    Median: 0.0000
+    Min: -0.1952, Max: 0.1396
+    Q1: -0.0000, Q3: 0.0000
+  Individual Fairness vs Utility: 6824160 contributions
+    Mean: -0.0000, Std: 0.0004
+    Median: 0.0000
+    Min: -0.1411, Max: 0.1077
+    Q1: -0.0000, Q3: 0.0000
+  Group Fairness vs Individual Fairness: 9098880 contributions
+    Mean: 0.0000, Std: 0.0011
+    Median: 0.0000
+    Min: -0.4539, Max: 0.7540
+    Q1: -0.0000, Q3: 0.0000
+  Group Fairness vs Group Fairness: 6824160 contributions
+    Mean: 0.0001, Std: 0.0014
+    Median: 0.0000
+    Min: -0.2897, Max: 0.7539
+    Q1: 0.0000, Q3: 0.0000
+  Individual Fairness vs Individual Fairness: 1137360 contributions
+    Mean: 0.0000, Std: 0.0012
+    Median: 0.0000
+    Min: -0.3051, Max: 0.3419
+    Q1: 0.0000, Q3: 0.0000
+  Utility vs Utility: 3412080 contributions
+    Mean: 0.0000, Std: 0.0003
+    Median: 0.0000
+    Min: -0.1070, Max: 0.0302
+    Q1: -0.0000, Q3: 0.0000
+
+High Order:
+  Group Fairness vs Utility: 1051680 contributions
+    Mean: -0.0000, Std: 0.0003
+    Median: 0.0000
+    Min: -0.0247, Max: 0.0229
+    Q1: -0.0000, Q3: 0.0000
+  Individual Fairness vs Utility: 525840 contributions
+    Mean: -0.0000, Std: 0.0002
+    Median: 0.0000
+    Min: -0.0243, Max: 0.0181
+    Q1: -0.0000, Q3: 0.0000
+  Group Fairness vs Individual Fairness: 701120 contributions
+    Mean: 0.0000, Std: 0.0005
+    Median: 0.0000
+    Min: -0.0985, Max: 0.0941
+    Q1: -0.0000, Q3: 0.0000
+  Group Fairness vs Group Fairness: 525840 contributions
+    Mean: 0.0001, Std: 0.0007
+    Median: 0.0000
+    Min: -0.0361, Max: 0.0929
+    Q1: 0.0000, Q3: 0.0000
+  Individual Fairness vs Individual Fairness: 87640 contributions
+    Mean: 0.0000, Std: 0.0006
+    Median: 0.0000
+    Min: -0.0118, Max: 0.0918
+    Q1: -0.0000, Q3: 0.0000
+  Utility vs Utility: 262920 contributions
+    Mean: 0.0000, Std: 0.0002
+    Median: 0.0000
+    Min: -0.0160, Max: 0.0168
+    Q1: -0.0000, Q3: 0.0000
+
+Statistics saved to: /home/exp/projects/zlf/hi4tradeoff/exp/results/RQ2/statistics.txt
+
+All outputs saved to: /home/exp/projects/zlf/hi4tradeoff/exp/results/RQ2

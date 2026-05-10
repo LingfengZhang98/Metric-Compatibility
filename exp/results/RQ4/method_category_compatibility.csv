@@ -1,0 +1,7 @@
+Method,Group Fairness vs Utility,Individual Fairness vs Utility,Group Fairness vs Individual Fairness,Group Fairness vs Group Fairness,Individual Fairness vs Individual Fairness,Utility vs Utility,All
+vanilla,-0.0380,-0.0340,0.4100,0.6322,0.4154,0.7454,0.2518
+reweighing,-0.0433,-0.0361,0.2882,0.4978,0.3309,0.7499,0.1982
+flipping,-0.0441,-0.0381,0.2337,0.5823,0.1692,0.7013,0.1911
+blindness,-0.0400,-0.0327,0.1454,0.5772,0.0000,0.8005,0.1764
+fairsmote,-0.0507,-0.0241,0.1271,0.4715,0.2595,0.5683,0.1405
+maat,-0.0359,-0.0352,0.3232,0.5586,0.3448,0.7823,0.2219

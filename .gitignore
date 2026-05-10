@@ -1,0 +1,36 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+__MACOSX
+
+# macOS resource forks
+._*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+.venv
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Generic hidden junk
+.xxx
+.~*
+*~
+
+# Data outputs (keep raw data, ignore generated)
+*.log
+*.out

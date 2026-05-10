@@ -1,0 +1,2 @@
+census	ufrgs	compas	diabetes	bank	heart	
+0(75.1\%)	0(53.2\%)	1(54.9\%)	1(65.1\%)	0(88.3\%)	0(54.1\%)	

@@ -1,0 +1,2771 @@
+{
+  "case_level": {
+    "accuracy": {
+      "mean_Kendall": 0.28906505337464083,
+      "95% CI_Kendall": [
+        0.24502584671398125,
+        0.33191384353084574
+      ],
+      "mean_Spearman": 0.3643463057815424,
+      "95% CI_Spearman": [
+        0.3113245240423901,
+        0.4151066826314028
+      ],
+      "n_valid_comparisons": 419
+    },
+    "recall": {
+      "mean_Kendall": 0.4328231145801176,
+      "95% CI_Kendall": [
+        0.3540906505196768,
+        0.5054635540760863
+      ],
+      "mean_Spearman": 0.513278644282557,
+      "95% CI_Spearman": [
+        0.43451777340082326,
+        0.5842489159490246
+      ],
+      "n_valid_comparisons": 420
+    },
+    "FPR": {
+      "mean_Kendall": 0.7152570901522934,
+      "95% CI_Kendall": [
+        0.6613096368746496,
+        0.7618434877673672
+      ],
+      "mean_Spearman": 0.8042189341571648,
+      "95% CI_Spearman": [
+        0.7635709282825899,
+        0.8385184357266448
+      ],
+      "n_valid_comparisons": 420
+    },
+    "SPD": {
+      "mean_Kendall": 0.7886939029773344,
+      "95% CI_Kendall": [
+        0.7380335632164042,
+        0.8305126662665636
+      ],
+      "mean_Spearman": 0.8649029085211485,
+      "95% CI_Spearman": [
+        0.8307496190630413,
+        0.8925687782850875
+      ],
+      "n_valid_comparisons": 419
+    },
+    "EOD": {
+      "mean_Kendall": 0.6074403790707503,
+      "95% CI_Kendall": [
+        0.5386289388800848,
+        0.6682020487197263
+      ],
+      "mean_Spearman": 0.7009403366232841,
+      "95% CI_Spearman": [
+        0.641167922028304,
+        0.7522591537261567
+      ],
+      "n_valid_comparisons": 416
+    },
+    "PED": {
+      "mean_Kendall": 0.663354494804683,
+      "95% CI_Kendall": [
+        0.6041785299300604,
+        0.7152539048731718
+      ],
+      "mean_Spearman": 0.7640733294142891,
+      "95% CI_Spearman": [
+        0.7176381735660065,
+        0.8037446246289478
+      ],
+      "n_valid_comparisons": 417
+    },
+    "AOD": {
+      "mean_Kendall": 0.6939585504282563,
+      "95% CI_Kendall": [
+        0.6306789475319564,
+        0.7480708747085698
+      ],
+      "mean_Spearman": 0.7877280017780763,
+      "95% CI_Spearman": [
+        0.7391415177269652,
+        0.8281591214525639
+      ],
+      "n_valid_comparisons": 419
+    },
+    "CFVR": {
+      "mean_Kendall": 0.9253365235184519,
+      "95% CI_Kendall": [
+        0.9026844556760243,
+        0.9428741927692676
+      ],
+      "mean_Spearman": 0.9572249575895869,
+      "95% CI_Spearman": [
+        0.9448466361009351,
+        0.9668724769534334
+      ],
+      "n_valid_comparisons": 415
+    },
+    "GIFVR": {
+      "mean_Kendall": 0.7432253071907993,
+      "95% CI_Kendall": [
+        0.6869214077615152,
+        0.7906600939732562
+      ],
+      "mean_Spearman": 0.8168553987729602,
+      "95% CI_Spearman": [
+        0.7736534983491195,
+        0.8524972618097651
+      ],
+      "n_valid_comparisons": 420
+    }
+  },
+  "dataset_level": {
+    "accuracy": {
+      "Kendall_tau": 0.8562353773199957,
+      "Kendall_p_value": 2.0988654294756657e-13,
+      "Spearman_rho": 0.9631250422157522,
+      "Spearman_p_value": 5.793483129269802e-21,
+      "n_points": 36,
+      "n_datasets": 6,
+      "n_methods": 6,
+      "data_points": [
+        {
+          "dataset": "census",
+          "method": "vanilla",
+          "n_observations": 70,
+          "actual_mean": 0.8275626351767362,
+          "estimated_mean": 0.7640611370250762
+        },
+        {
+          "dataset": "census",
+          "method": "reweighing",
+          "n_observations": 70,
+          "actual_mean": 0.823868462182088,
+          "estimated_mean": 0.7528381666337925
+        },
+        {
+          "dataset": "census",
+          "method": "flipping",
+          "n_observations": 70,
+          "actual_mean": 0.8273668755821479,
+          "estimated_mean": 0.7627565163417689
+        },
+        {
+          "dataset": "census",
+          "method": "blindness",
+          "n_observations": 70,
+          "actual_mean": 0.8239821290434618,
+          "estimated_mean": 0.7596591768956583
+        },
+        {
+          "dataset": "census",
+          "method": "fairsmote",
+          "n_observations": 70,
+          "actual_mean": 0.7702398055033706,
+          "estimated_mean": 0.7249314123544246
+        },
+        {
+          "dataset": "census",
+          "method": "maat",
+          "n_observations": 70,
+          "actual_mean": 0.8212683327281625,
+          "estimated_mean": 0.7667779155090407
+        },
+        {
+          "dataset": "ufrgs",
+          "method": "vanilla",
+          "n_observations": 70,
+          "actual_mean": 0.6510089402553417,
+          "estimated_mean": 0.5783433654177047
+        },
+        {
+          "dataset": "ufrgs",
+          "method": "reweighing",
+          "n_observations": 70,
+          "actual_mean": 0.6485226035607068,
+          "estimated_mean": 0.5782188846327838
+        },
+        {
+          "dataset": "ufrgs",
+          "method": "flipping",
+          "n_observations": 70,
+          "actual_mean": 0.6442130266008336,
+          "estimated_mean": 0.5707648056489388
+        },
+        {
+          "dataset": "ufrgs",
+          "method": "blindness",
+          "n_observations": 70,
+          "actual_mean": 0.6350891276378151,
+          "estimated_mean": 0.5630820340759938
+        },
+        {
+          "dataset": "ufrgs",
+          "method": "fairsmote",
+          "n_observations": 70,
+          "actual_mean": 0.6331636187690379,
+          "estimated_mean": 0.6021936980950932
+        },
+        {
+          "dataset": "ufrgs",
+          "method": "maat",
+          "n_observations": 70,
+          "actual_mean": 0.6527002210321432,
+          "estimated_mean": 0.5784849727583292
+        },
+        {
+          "dataset": "compas",
+          "method": "vanilla",
+          "n_observations": 70,
+          "actual_mean": 0.6748927746618278,
+          "estimated_mean": 0.5834439320291318
+        },
+        {
+          "dataset": "compas",
+          "method": "reweighing",
+          "n_observations": 70,
+          "actual_mean": 0.6742725173210163,
+          "estimated_mean": 0.5844801816800179
+        },
+        {
+          "dataset": "compas",
+          "method": "flipping",
+          "n_observations": 70,
+          "actual_mean": 0.6713361926756847,
+          "estimated_mean": 0.5801658896646611
+        },
+        {
+          "dataset": "compas",
+          "method": "blindness",
+          "n_observations": 70,
+          "actual_mean": 0.6666644671725503,
+          "estimated_mean": 0.5758147043219239
+        },
+        {
+          "dataset": "compas",
+          "method": "fairsmote",
+          "n_observations": 70,
+          "actual_mean": 0.6523853513691851,
+          "estimated_mean": 0.5830053749664967
+        },
+        {
+          "dataset": "compas",
+          "method": "maat",
+          "n_observations": 70,
+          "actual_mean": 0.675473441108545,
+          "estimated_mean": 0.580251947083314
+        },
+        {
+          "dataset": "diabetes",
+          "method": "vanilla",
+          "n_observations": 70,
+          "actual_mean": 0.7620902906617194,
+          "estimated_mean": 0.6806571253183772
+        },
+        {
+          "dataset": "diabetes",
+          "method": "reweighing",
+          "n_observations": 70,
+          "actual_mean": 0.7470624613481754,
+          "estimated_mean": 0.6664325863529921
+        },
+        {
+          "dataset": "diabetes",
+          "method": "flipping",
+          "n_observations": 70,
+          "actual_mean": 0.7544836116264686,
+          "estimated_mean": 0.6884753771839519
+        },
+        {
+          "dataset": "diabetes",
+          "method": "blindness",
+          "n_observations": 70,
+          "actual_mean": 0.7578231292517006,
+          "estimated_mean": 0.6759021744572996
+        },
+        {
+          "dataset": "diabetes",
+          "method": "fairsmote",
+          "n_observations": 70,
+          "actual_mean": 0.7203463203463203,
+          "estimated_mean": 0.6602366640250249
+        },
+        {
+          "dataset": "diabetes",
+          "method": "maat",
+          "n_observations": 70,
+          "actual_mean": 0.7584415584415584,
+          "estimated_mean": 0.6738390430318331
+        },
+        {
+          "dataset": "bank",
+          "method": "vanilla",
+          "n_observations": 70,
+          "actual_mean": 0.8921904621477019,
+          "estimated_mean": 0.8188361185380983
+        },
+        {
+          "dataset": "bank",
+          "method": "reweighing",
+          "n_observations": 70,
+          "actual_mean": 0.8917512743817667,
+          "estimated_mean": 0.8183750981711874
+        },
+        {
+          "dataset": "bank",
+          "method": "flipping",
+          "n_observations": 70,
+          "actual_mean": 0.8916912415216749,
+          "estimated_mean": 0.8185673540718893
+        },
+        {
+          "dataset": "bank",
+          "method": "blindness",
+          "n_observations": 70,
+          "actual_mean": 0.8923568690230442,
+          "estimated_mean": 0.8193496051789075
+        },
+        {
+          "dataset": "bank",
+          "method": "fairsmote",
+          "n_observations": 70,
+          "actual_mean": 0.7488562160340397,
+          "estimated_mean": 0.6387730602883601
+        },
+        {
+          "dataset": "bank",
+          "method": "maat",
+          "n_observations": 70,
+          "actual_mean": 0.8919271601297554,
+          "estimated_mean": 0.8201595366856965
+        },
+        {
+          "dataset": "heart",
+          "method": "vanilla",
+          "n_observations": 70,
+          "actual_mean": 0.8077046548956661,
+          "estimated_mean": 0.7350334302534743
+        },
+        {
+          "dataset": "heart",
+          "method": "reweighing",
+          "n_observations": 70,
+          "actual_mean": 0.8052969502407705,
+          "estimated_mean": 0.7349378970154967
+        },
+        {
+          "dataset": "heart",
+          "method": "flipping",
+          "n_observations": 70,
+          "actual_mean": 0.801123595505618,
+          "estimated_mean": 0.7393122111353656
+        },
+        {
+          "dataset": "heart",
+          "method": "blindness",
+          "n_observations": 70,
+          "actual_mean": 0.7991974317817014,
+          "estimated_mean": 0.7245699143705333
+        },
+        {
+          "dataset": "heart",
+          "method": "fairsmote",
+          "n_observations": 70,
+          "actual_mean": 0.7991974317817014,
+          "estimated_mean": 0.7573490371382564
+        },
+        {
+          "dataset": "heart",
+          "method": "maat",
+          "n_observations": 70,
+          "actual_mean": 0.8126805778491172,
+          "estimated_mean": 0.7314671754383603
+        }
+      ]
+    },
+    "recall": {
+      "Kendall_tau": 0.4952380952380953,
+      "Kendall_p_value": 2.1403888385379077e-05,
+      "Spearman_rho": 0.67001287001287,
+      "Spearman_p_value": 7.83134580989942e-06,
+      "n_points": 36,
+      "n_datasets": 6,
+      "n_methods": 6,
+      "data_points": [
+        {
+          "dataset": "census",
+          "method": "vanilla",
+          "n_observations": 70,
+          "actual_mean": 0.7288703536708869,
+          "estimated_mean": 0.5222110211128059
+        },
+        {
+          "dataset": "census",
+          "method": "reweighing",
+          "n_observations": 70,
+          "actual_mean": 0.7434917384313166,
+          "estimated_mean": 0.5578797327455411
+        },
+        {
+          "dataset": "census",
+          "method": "flipping",
+          "n_observations": 70,
+          "actual_mean": 0.7309448001795235,
+          "estimated_mean": 0.5299685420542944
+        },
+        {
+          "dataset": "census",
+          "method": "blindness",
+          "n_observations": 70,
+          "actual_mean": 0.7195574806697723,
+          "estimated_mean": 0.5158459162521163
+        },
+        {
+          "dataset": "census",
+          "method": "fairsmote",
+          "n_observations": 70,
+          "actual_mean": 0.7349472943797805,
+          "estimated_mean": 0.6350498408470577
+        },
+        {
+          "dataset": "census",
+          "method": "maat",
+          "n_observations": 70,
+          "actual_mean": 0.6860865455862788,
+          "estimated_mean": 0.4532748415401451
+        },
+        {
+          "dataset": "ufrgs",
+          "method": "vanilla",
+          "n_observations": 70,
+          "actual_mean": 0.646697496595759,
+          "estimated_mean": 0.5554038829388667
+        },
+        {
+          "dataset": "ufrgs",
+          "method": "reweighing",
+          "n_observations": 70,
+          "actual_mean": 0.6390814243507302,
+          "estimated_mean": 0.5224144381476821
+        },
+        {
+          "dataset": "ufrgs",
+          "method": "flipping",
+          "n_observations": 70,
+          "actual_mean": 0.6385245445485362,
+          "estimated_mean": 0.5440168144511605
+        },
+        {
+          "dataset": "ufrgs",
+          "method": "blindness",
+          "n_observations": 70,
+          "actual_mean": 0.6280454880005741,
+          "estimated_mean": 0.5340565328779651
+        },
+        {
+          "dataset": "ufrgs",
+          "method": "fairsmote",
+          "n_observations": 70,
+          "actual_mean": 0.6279565082184121,
+          "estimated_mean": 0.5570238037387375
+        },
+        {
+          "dataset": "ufrgs",
+          "method": "maat",
+          "n_observations": 70,
+          "actual_mean": 0.6457825626325983,
+          "estimated_mean": 0.5338926567585367
+        },
+        {
+          "dataset": "compas",
+          "method": "vanilla",
+          "n_observations": 70,
+          "actual_mean": 0.6665108224511247,
+          "estimated_mean": 0.6238601337834061
+        },
+        {
+          "dataset": "compas",
+          "method": "reweighing",
+          "n_observations": 70,
+          "actual_mean": 0.6620451468011166,
+          "estimated_mean": 0.6392373314401628
+        },
+        {
+          "dataset": "compas",
+          "method": "flipping",
+          "n_observations": 70,
+          "actual_mean": 0.6621078921674334,
+          "estimated_mean": 0.6204535734701445
+        },
+        {
+          "dataset": "compas",
+          "method": "blindness",
+          "n_observations": 70,
+          "actual_mean": 0.6561171711665094,
+          "estimated_mean": 0.6176999214886504
+        },
+        {
+          "dataset": "compas",
+          "method": "fairsmote",
+          "n_observations": 70,
+          "actual_mean": 0.6503376013129593,
+          "estimated_mean": 0.5636175250837286
+        },
+        {
+          "dataset": "compas",
+          "method": "maat",
+          "n_observations": 70,
+          "actual_mean": 0.6670827470096689,
+          "estimated_mean": 0.6146177022343645
+        },
+        {
+          "dataset": "diabetes",
+          "method": "vanilla",
+          "n_observations": 70,
+          "actual_mean": 0.724710001162,
+          "estimated_mean": 0.7514494797853589
+        },
+        {
+          "dataset": "diabetes",
+          "method": "reweighing",
+          "n_observations": 70,
+          "actual_mean": 0.6959460895389079,
+          "estimated_mean": 0.7511424978016039
+        },
+        {
+          "dataset": "diabetes",
+          "method": "flipping",
+          "n_observations": 70,
+          "actual_mean": 0.7141178667231696,
+          "estimated_mean": 0.7606800939272327
+        },
+        {
+          "dataset": "diabetes",
+          "method": "blindness",
+          "n_observations": 70,
+          "actual_mean": 0.7150647584544689,
+          "estimated_mean": 0.7492300699381841
+        },
+        {
+          "dataset": "diabetes",
+          "method": "fairsmote",
+          "n_observations": 70,
+          "actual_mean": 0.7060562814684906,
+          "estimated_mean": 0.6832053497088141
+        },
+        {
+          "dataset": "diabetes",
+          "method": "maat",
+          "n_observations": 70,
+          "actual_mean": 0.7035508958884948,
+          "estimated_mean": 0.765883610113825
+        },
+        {
+          "dataset": "bank",
+          "method": "vanilla",
+          "n_observations": 70,
+          "actual_mean": 0.5746334792143588,
+          "estimated_mean": 0.2145895746276123
+        },
+        {
+          "dataset": "bank",
+          "method": "reweighing",
+          "n_observations": 70,
+          "actual_mean": 0.5745390070952661,
+          "estimated_mean": 0.2156593751445889
+        },
+        {
+          "dataset": "bank",
+          "method": "flipping",
+          "n_observations": 70,
+          "actual_mean": 0.5750816804831155,
+          "estimated_mean": 0.21808731115634736
+        },
+        {
+          "dataset": "bank",
+          "method": "blindness",
+          "n_observations": 70,
+          "actual_mean": 0.5761660280922152,
+          "estimated_mean": 0.2174862083495825
+        },
+        {
+          "dataset": "bank",
+          "method": "fairsmote",
+          "n_observations": 70,
+          "actual_mean": 0.6424860159996592,
+          "estimated_mean": 0.5038192670341335
+        },
+        {
+          "dataset": "bank",
+          "method": "maat",
+          "n_observations": 70,
+          "actual_mean": 0.5758548862896539,
+          "estimated_mean": 0.21263187924724372
+        },
+        {
+          "dataset": "heart",
+          "method": "vanilla",
+          "n_observations": 70,
+          "actual_mean": 0.8051985520456777,
+          "estimated_mean": 0.7140946356011985
+        },
+        {
+          "dataset": "heart",
+          "method": "reweighing",
+          "n_observations": 70,
+          "actual_mean": 0.8013765768175521,
+          "estimated_mean": 0.6984423383325875
+        },
+        {
+          "dataset": "heart",
+          "method": "flipping",
+          "n_observations": 70,
+          "actual_mean": 0.7984195516924065,
+          "estimated_mean": 0.7214453189807565
+        },
+        {
+          "dataset": "heart",
+          "method": "blindness",
+          "n_observations": 70,
+          "actual_mean": 0.7961024769481492,
+          "estimated_mean": 0.7039043434927952
+        },
+        {
+          "dataset": "heart",
+          "method": "fairsmote",
+          "n_observations": 70,
+          "actual_mean": 0.7957070168619832,
+          "estimated_mean": 0.7231730474633261
+        },
+        {
+          "dataset": "heart",
+          "method": "maat",
+          "n_observations": 70,
+          "actual_mean": 0.8083486118338734,
+          "estimated_mean": 0.6863419460862641
+        }
+      ]
+    },
+    "FPR": {
+      "Kendall_tau": 0.8920634920634921,
+      "Kendall_p_value": 1.9339875335776653e-14,
+      "Spearman_rho": 0.9786357786357787,
+      "Spearman_p_value": 6.091937620263066e-25,
+      "n_points": 36,
+      "n_datasets": 6,
+      "n_methods": 6,
+      "data_points": [
+        {
+          "dataset": "census",
+          "method": "vanilla",
+          "n_observations": 70,
+          "actual_mean": 0.07208763515059725,
+          "estimated_mean": 0.15103631172149776
+        },
+        {
+          "dataset": "census",
+          "method": "reweighing",
+          "n_observations": 70,
+          "actual_mean": 0.09439802232701448,
+          "estimated_mean": 0.17872275255195091
+        },
+        {
+          "dataset": "census",
+          "method": "flipping",
+          "n_observations": 70,
+          "actual_mean": 0.07467386915368923,
+          "estimated_mean": 0.15550643715587245
+        },
+        {
+          "dataset": "census",
+          "method": "blindness",
+          "n_observations": 70,
+          "actual_mean": 0.06983770154335561,
+          "estimated_mean": 0.15477894651921573
+        },
+        {
+          "dataset": "census",
+          "method": "fairsmote",
+          "n_observations": 70,
+          "actual_mean": 0.19367475637016834,
+          "estimated_mean": 0.2448444598632127
+        },
+        {
+          "dataset": "census",
+          "method": "maat",
+          "n_observations": 70,
+          "actual_mean": 0.04129738253488164,
+          "estimated_mean": 0.12329715539398067
+        },
+        {
+          "dataset": "ufrgs",
+          "method": "vanilla",
+          "n_observations": 70,
+          "actual_mean": 0.2829815593391579,
+          "estimated_mean": 0.40188335470102904
+        },
+        {
+          "dataset": "ufrgs",
+          "method": "reweighing",
+          "n_observations": 70,
+          "actual_mean": 0.20739706994060128,
+          "estimated_mean": 0.37344421543864964
+        },
+        {
+          "dataset": "ufrgs",
+          "method": "flipping",
+          "n_observations": 70,
+          "actual_mean": 0.26908705735778593,
+          "estimated_mean": 0.40618616125638685
+        },
+        {
+          "dataset": "ufrgs",
+          "method": "blindness",
+          "n_observations": 70,
+          "actual_mean": 0.25726612437148366,
+          "estimated_mean": 0.41163269744102077
+        },
+        {
+          "dataset": "ufrgs",
+          "method": "fairsmote",
+          "n_observations": 70,
+          "actual_mean": 0.2873764149517164,
+          "estimated_mean": 0.35838596585244203
+        },
+        {
+          "dataset": "ufrgs",
+          "method": "maat",
+          "n_observations": 70,
+          "actual_mean": 0.24148505706089862,
+          "estimated_mean": 0.38291584790039296
+        },
+        {
+          "dataset": "compas",
+          "method": "vanilla",
+          "n_observations": 70,
+          "actual_mean": 0.4157401738296058,
+          "estimated_mean": 0.4630939048546255
+        },
+        {
+          "dataset": "compas",
+          "method": "reweighing",
+          "n_observations": 70,
+          "actual_mean": 0.45696016706773573,
+          "estimated_mean": 0.4787816516763234
+        },
+        {
+          "dataset": "compas",
+          "method": "flipping",
+          "n_observations": 70,
+          "actual_mean": 0.42847119309232756,
+          "estimated_mean": 0.46619243569308305
+        },
+        {
+          "dataset": "compas",
+          "method": "blindness",
+          "n_observations": 70,
+          "actual_mean": 0.446865696729023,
+          "estimated_mean": 0.4725107081090257
+        },
+        {
+          "dataset": "compas",
+          "method": "fairsmote",
+          "n_observations": 70,
+          "actual_mean": 0.37245153495983346,
+          "estimated_mean": 0.3932680102416111
+        },
+        {
+          "dataset": "compas",
+          "method": "maat",
+          "n_observations": 70,
+          "actual_mean": 0.4159152654333572,
+          "estimated_mean": 0.4591531231726679
+        },
+        {
+          "dataset": "diabetes",
+          "method": "vanilla",
+          "n_observations": 70,
+          "actual_mean": 0.40150573639688697,
+          "estimated_mean": 0.4493650457901155
+        },
+        {
+          "dataset": "diabetes",
+          "method": "reweighing",
+          "n_observations": 70,
+          "actual_mean": 0.47611210563146195,
+          "estimated_mean": 0.48927340357356053
+        },
+        {
+          "dataset": "diabetes",
+          "method": "flipping",
+          "n_observations": 70,
+          "actual_mean": 0.4224577135921805,
+          "estimated_mean": 0.4441034439662586
+        },
+        {
+          "dataset": "diabetes",
+          "method": "blindness",
+          "n_observations": 70,
+          "actual_mean": 0.4304983960014368,
+          "estimated_mean": 0.4588172168922234
+        },
+        {
+          "dataset": "diabetes",
+          "method": "fairsmote",
+          "n_observations": 70,
+          "actual_mean": 0.3410968606905612,
+          "estimated_mean": 0.38277116638111436
+        },
+        {
+          "dataset": "diabetes",
+          "method": "maat",
+          "n_observations": 70,
+          "actual_mean": 0.4813826017354194,
+          "estimated_mean": 0.49544107487852407
+        },
+        {
+          "dataset": "bank",
+          "method": "vanilla",
+          "n_observations": 70,
+          "actual_mean": 0.011411479213678605,
+          "estimated_mean": 0.1003505437737314
+        },
+        {
+          "dataset": "bank",
+          "method": "reweighing",
+          "n_observations": 70,
+          "actual_mean": 0.011970197571410823,
+          "estimated_mean": 0.10103022509542234
+        },
+        {
+          "dataset": "bank",
+          "method": "flipping",
+          "n_observations": 70,
+          "actual_mean": 0.012207387250451568,
+          "estimated_mean": 0.10115426877769253
+        },
+        {
+          "dataset": "bank",
+          "method": "blindness",
+          "n_observations": 70,
+          "actual_mean": 0.011663478220137358,
+          "estimated_mean": 0.10014587135012454
+        },
+        {
+          "dataset": "bank",
+          "method": "fairsmote",
+          "n_observations": 70,
+          "actual_mean": 0.21883181013019345,
+          "estimated_mean": 0.34309853346936026
+        },
+        {
+          "dataset": "bank",
+          "method": "maat",
+          "n_observations": 70,
+          "actual_mean": 0.012131778720649402,
+          "estimated_mean": 0.09859393872940554
+        },
+        {
+          "dataset": "heart",
+          "method": "vanilla",
+          "n_observations": 70,
+          "actual_mean": 0.15185580748147026,
+          "estimated_mean": 0.2459995156707858
+        },
+        {
+          "dataset": "heart",
+          "method": "reweighing",
+          "n_observations": 70,
+          "actual_mean": 0.1331877238271724,
+          "estimated_mean": 0.2324117415034888
+        },
+        {
+          "dataset": "heart",
+          "method": "flipping",
+          "n_observations": 70,
+          "actual_mean": 0.15736089981264953,
+          "estimated_mean": 0.24464693786568312
+        },
+        {
+          "dataset": "heart",
+          "method": "blindness",
+          "n_observations": 70,
+          "actual_mean": 0.15765242742018987,
+          "estimated_mean": 0.25715651829217406
+        },
+        {
+          "dataset": "heart",
+          "method": "fairsmote",
+          "n_observations": 70,
+          "actual_mean": 0.15518719436959097,
+          "estimated_mean": 0.21326685167126777
+        },
+        {
+          "dataset": "heart",
+          "method": "maat",
+          "n_observations": 70,
+          "actual_mean": 0.12476003023723065,
+          "estimated_mean": 0.2287625057363428
+        }
+      ]
+    },
+    "SPD": {
+      "Kendall_tau": 0.6952380952380953,
+      "Kendall_p_value": 2.43212331328024e-09,
+      "Spearman_rho": 0.8504504504504505,
+      "Spearman_p_value": 5.175072721275035e-11,
+      "n_points": 36,
+      "n_datasets": 6,
+      "n_methods": 6,
+      "data_points": [
+        {
+          "dataset": "census",
+          "method": "vanilla",
+          "n_observations": 70,
+          "actual_mean": 0.3884601155435468,
+          "estimated_mean": 0.3973417146798907
+        },
+        {
+          "dataset": "census",
+          "method": "reweighing",
+          "n_observations": 70,
+          "actual_mean": 0.3775186655059335,
+          "estimated_mean": 0.38156416805276366
+        },
+        {
+          "dataset": "census",
+          "method": "flipping",
+          "n_observations": 70,
+          "actual_mean": 0.35122376067651917,
+          "estimated_mean": 0.3520407446864624
+        },
+        {
+          "dataset": "census",
+          "method": "blindness",
+          "n_observations": 70,
+          "actual_mean": 0.286407041116682,
+          "estimated_mean": 0.3066367405512463
+        },
+        {
+          "dataset": "census",
+          "method": "fairsmote",
+          "n_observations": 70,
+          "actual_mean": 0.32731783839786643,
+          "estimated_mean": 0.32638015078973215
+        },
+        {
+          "dataset": "census",
+          "method": "maat",
+          "n_observations": 70,
+          "actual_mean": 0.2452879422639268,
+          "estimated_mean": 0.30036940173410215
+        },
+        {
+          "dataset": "ufrgs",
+          "method": "vanilla",
+          "n_observations": 70,
+          "actual_mean": 0.5565757610708834,
+          "estimated_mean": 0.2865197469893865
+        },
+        {
+          "dataset": "ufrgs",
+          "method": "reweighing",
+          "n_observations": 70,
+          "actual_mean": 0.4112815795885135,
+          "estimated_mean": 0.2641111197074017
+        },
+        {
+          "dataset": "ufrgs",
+          "method": "flipping",
+          "n_observations": 70,
+          "actual_mean": 0.3713852133144578,
+          "estimated_mean": 0.17870817517984164
+        },
+        {
+          "dataset": "ufrgs",
+          "method": "blindness",
+          "n_observations": 70,
+          "actual_mean": 0.21955663939563005,
+          "estimated_mean": 0.116581965903585
+        },
+        {
+          "dataset": "ufrgs",
+          "method": "fairsmote",
+          "n_observations": 70,
+          "actual_mean": 0.15484650105335998,
+          "estimated_mean": 0.1587314752431235
+        },
+        {
+          "dataset": "ufrgs",
+          "method": "maat",
+          "n_observations": 70,
+          "actual_mean": 0.4792091891218938,
+          "estimated_mean": 0.2500906844038153
+        },
+        {
+          "dataset": "compas",
+          "method": "vanilla",
+          "n_observations": 70,
+          "actual_mean": 0.6668833538339723,
+          "estimated_mean": 0.3759654642472023
+        },
+        {
+          "dataset": "compas",
+          "method": "reweighing",
+          "n_observations": 70,
+          "actual_mean": 0.6009011426981009,
+          "estimated_mean": 0.36282986053879623
+        },
+        {
+          "dataset": "compas",
+          "method": "flipping",
+          "n_observations": 70,
+          "actual_mean": 0.48584472009525065,
+          "estimated_mean": 0.28337809518680573
+        },
+        {
+          "dataset": "compas",
+          "method": "blindness",
+          "n_observations": 70,
+          "actual_mean": 0.356554156108921,
+          "estimated_mean": 0.21920618172719353
+        },
+        {
+          "dataset": "compas",
+          "method": "fairsmote",
+          "n_observations": 70,
+          "actual_mean": 0.388388694410952,
+          "estimated_mean": 0.3354773514634763
+        },
+        {
+          "dataset": "compas",
+          "method": "maat",
+          "n_observations": 70,
+          "actual_mean": 0.5799976707382223,
+          "estimated_mean": 0.32440835303199766
+        },
+        {
+          "dataset": "diabetes",
+          "method": "vanilla",
+          "n_observations": 70,
+          "actual_mean": 0.333288763424285,
+          "estimated_mean": 0.2634629819422916
+        },
+        {
+          "dataset": "diabetes",
+          "method": "reweighing",
+          "n_observations": 70,
+          "actual_mean": 0.14106753109202808,
+          "estimated_mean": 0.11106819476954717
+        },
+        {
+          "dataset": "diabetes",
+          "method": "flipping",
+          "n_observations": 70,
+          "actual_mean": 0.2702191199423695,
+          "estimated_mean": 0.2229349190903809
+        },
+        {
+          "dataset": "diabetes",
+          "method": "blindness",
+          "n_observations": 70,
+          "actual_mean": 0.24201989580270883,
+          "estimated_mean": 0.18462451357201226
+        },
+        {
+          "dataset": "diabetes",
+          "method": "fairsmote",
+          "n_observations": 70,
+          "actual_mean": 0.1576655663481631,
+          "estimated_mean": 0.1253067542868249
+        },
+        {
+          "dataset": "diabetes",
+          "method": "maat",
+          "n_observations": 70,
+          "actual_mean": 0.204648872454898,
+          "estimated_mean": 0.17131361903085407
+        },
+        {
+          "dataset": "bank",
+          "method": "vanilla",
+          "n_observations": 70,
+          "actual_mean": 0.003380641098864307,
+          "estimated_mean": 0.013146687136626265
+        },
+        {
+          "dataset": "bank",
+          "method": "reweighing",
+          "n_observations": 70,
+          "actual_mean": 0.004919317645269062,
+          "estimated_mean": 0.00987865605448114
+        },
+        {
+          "dataset": "bank",
+          "method": "flipping",
+          "n_observations": 70,
+          "actual_mean": 0.003233429605978985,
+          "estimated_mean": 0.012692715503725647
+        },
+        {
+          "dataset": "bank",
+          "method": "blindness",
+          "n_observations": 70,
+          "actual_mean": 0.0027495336665376373,
+          "estimated_mean": 0.010514131034817128
+        },
+        {
+          "dataset": "bank",
+          "method": "fairsmote",
+          "n_observations": 70,
+          "actual_mean": 0.04597888128588086,
+          "estimated_mean": 0.039738910352798126
+        },
+        {
+          "dataset": "bank",
+          "method": "maat",
+          "n_observations": 70,
+          "actual_mean": 0.0036359411525893393,
+          "estimated_mean": 0.01058084848445065
+        },
+        {
+          "dataset": "heart",
+          "method": "vanilla",
+          "n_observations": 70,
+          "actual_mean": 0.5611181864788715,
+          "estimated_mean": 0.47334927281192113
+        },
+        {
+          "dataset": "heart",
+          "method": "reweighing",
+          "n_observations": 70,
+          "actual_mean": 0.5313685886422597,
+          "estimated_mean": 0.4595224788172861
+        },
+        {
+          "dataset": "heart",
+          "method": "flipping",
+          "n_observations": 70,
+          "actual_mean": 0.536564794295276,
+          "estimated_mean": 0.45957987329386
+        },
+        {
+          "dataset": "heart",
+          "method": "blindness",
+          "n_observations": 70,
+          "actual_mean": 0.5121389217007989,
+          "estimated_mean": 0.4114117153365757
+        },
+        {
+          "dataset": "heart",
+          "method": "fairsmote",
+          "n_observations": 70,
+          "actual_mean": 0.49527893737254475,
+          "estimated_mean": 0.46117575782497244
+        },
+        {
+          "dataset": "heart",
+          "method": "maat",
+          "n_observations": 70,
+          "actual_mean": 0.5270174220589504,
+          "estimated_mean": 0.4408802689307548
+        }
+      ]
+    },
+    "EOD": {
+      "Kendall_tau": 0.5873015873015873,
+      "Kendall_p_value": 4.661870489791715e-07,
+      "Spearman_rho": 0.7428571428571429,
+      "Spearman_p_value": 2.1241924636353414e-07,
+      "n_points": 36,
+      "n_datasets": 6,
+      "n_methods": 6,
+      "data_points": [
+        {
+          "dataset": "census",
+          "method": "vanilla",
+          "n_observations": 70,
+          "actual_mean": 0.38977732752088096,
+          "estimated_mean": 0.48914641396199243
+        },
+        {
+          "dataset": "census",
+          "method": "reweighing",
+          "n_observations": 70,
+          "actual_mean": 0.342336315627018,
+          "estimated_mean": 0.4842727298242313
+        },
+        {
+          "dataset": "census",
+          "method": "flipping",
+          "n_observations": 70,
+          "actual_mean": 0.3271967776361673,
+          "estimated_mean": 0.44147919300020416
+        },
+        {
+          "dataset": "census",
+          "method": "blindness",
+          "n_observations": 70,
+          "actual_mean": 0.25720663605175,
+          "estimated_mean": 0.42799207058636396
+        },
+        {
+          "dataset": "census",
+          "method": "fairsmote",
+          "n_observations": 70,
+          "actual_mean": 0.23767097099997322,
+          "estimated_mean": 0.5020951667296203
+        },
+        {
+          "dataset": "census",
+          "method": "maat",
+          "n_observations": 70,
+          "actual_mean": 0.24132833820193217,
+          "estimated_mean": 0.4186440865114316
+        },
+        {
+          "dataset": "ufrgs",
+          "method": "vanilla",
+          "n_observations": 70,
+          "actual_mean": 0.49726700500427856,
+          "estimated_mean": 0.22860135027005718
+        },
+        {
+          "dataset": "ufrgs",
+          "method": "reweighing",
+          "n_observations": 70,
+          "actual_mean": 0.3811891471778372,
+          "estimated_mean": 0.20662758208953927
+        },
+        {
+          "dataset": "ufrgs",
+          "method": "flipping",
+          "n_observations": 70,
+          "actual_mean": 0.2955227838471542,
+          "estimated_mean": 0.1514301752675909
+        },
+        {
+          "dataset": "ufrgs",
+          "method": "blindness",
+          "n_observations": 70,
+          "actual_mean": 0.16933478276645897,
+          "estimated_mean": 0.12282390441865643
+        },
+        {
+          "dataset": "ufrgs",
+          "method": "fairsmote",
+          "n_observations": 70,
+          "actual_mean": 0.14935508629000022,
+          "estimated_mean": 0.18568232317540656
+        },
+        {
+          "dataset": "ufrgs",
+          "method": "maat",
+          "n_observations": 70,
+          "actual_mean": 0.41806987870909723,
+          "estimated_mean": 0.19467401872979045
+        },
+        {
+          "dataset": "compas",
+          "method": "vanilla",
+          "n_observations": 70,
+          "actual_mean": 0.5938725510385595,
+          "estimated_mean": 0.3628656690877726
+        },
+        {
+          "dataset": "compas",
+          "method": "reweighing",
+          "n_observations": 70,
+          "actual_mean": 0.5145341620072281,
+          "estimated_mean": 0.34586325313019495
+        },
+        {
+          "dataset": "compas",
+          "method": "flipping",
+          "n_observations": 70,
+          "actual_mean": 0.4254359280172935,
+          "estimated_mean": 0.26755230321931794
+        },
+        {
+          "dataset": "compas",
+          "method": "blindness",
+          "n_observations": 70,
+          "actual_mean": 0.29332791684593734,
+          "estimated_mean": 0.2028760668774323
+        },
+        {
+          "dataset": "compas",
+          "method": "fairsmote",
+          "n_observations": 70,
+          "actual_mean": 0.3605018326101323,
+          "estimated_mean": 0.3755770248242681
+        },
+        {
+          "dataset": "compas",
+          "method": "maat",
+          "n_observations": 70,
+          "actual_mean": 0.506703657348839,
+          "estimated_mean": 0.32272466328912613
+        },
+        {
+          "dataset": "diabetes",
+          "method": "vanilla",
+          "n_observations": 70,
+          "actual_mean": 0.22390703013186058,
+          "estimated_mean": 0.22296373598993732
+        },
+        {
+          "dataset": "diabetes",
+          "method": "reweighing",
+          "n_observations": 70,
+          "actual_mean": 0.06926911111006821,
+          "estimated_mean": 0.07919588093646523
+        },
+        {
+          "dataset": "diabetes",
+          "method": "flipping",
+          "n_observations": 70,
+          "actual_mean": 0.17448115121726626,
+          "estimated_mean": 0.17438231372087562
+        },
+        {
+          "dataset": "diabetes",
+          "method": "blindness",
+          "n_observations": 70,
+          "actual_mean": 0.1472397065842078,
+          "estimated_mean": 0.14109760542168948
+        },
+        {
+          "dataset": "diabetes",
+          "method": "fairsmote",
+          "n_observations": 70,
+          "actual_mean": 0.08588467798716759,
+          "estimated_mean": 0.0759252063613951
+        },
+        {
+          "dataset": "diabetes",
+          "method": "maat",
+          "n_observations": 70,
+          "actual_mean": 0.11458905196723901,
+          "estimated_mean": 0.13699501365662456
+        },
+        {
+          "dataset": "bank",
+          "method": "vanilla",
+          "n_observations": 70,
+          "actual_mean": 0.027094748833301333,
+          "estimated_mean": 0.056054277744642875
+        },
+        {
+          "dataset": "bank",
+          "method": "reweighing",
+          "n_observations": 70,
+          "actual_mean": 0.03401562760606002,
+          "estimated_mean": 0.05627225908976161
+        },
+        {
+          "dataset": "bank",
+          "method": "flipping",
+          "n_observations": 70,
+          "actual_mean": 0.023073791722612296,
+          "estimated_mean": 0.05472646450357867
+        },
+        {
+          "dataset": "bank",
+          "method": "blindness",
+          "n_observations": 70,
+          "actual_mean": 0.020072637612757016,
+          "estimated_mean": 0.05443900475071977
+        },
+        {
+          "dataset": "bank",
+          "method": "fairsmote",
+          "n_observations": 70,
+          "actual_mean": 0.05388750590801013,
+          "estimated_mean": 0.08876730773480256
+        },
+        {
+          "dataset": "bank",
+          "method": "maat",
+          "n_observations": 70,
+          "actual_mean": 0.030287710073425796,
+          "estimated_mean": 0.05639996703676621
+        },
+        {
+          "dataset": "heart",
+          "method": "vanilla",
+          "n_observations": 70,
+          "actual_mean": 0.3101473250696853,
+          "estimated_mean": 0.2114116022378547
+        },
+        {
+          "dataset": "heart",
+          "method": "reweighing",
+          "n_observations": 70,
+          "actual_mean": 0.33611242047577455,
+          "estimated_mean": 0.2203956076604174
+        },
+        {
+          "dataset": "heart",
+          "method": "flipping",
+          "n_observations": 70,
+          "actual_mean": 0.31024433123812006,
+          "estimated_mean": 0.23190117716124245
+        },
+        {
+          "dataset": "heart",
+          "method": "blindness",
+          "n_observations": 70,
+          "actual_mean": 0.3306662281817561,
+          "estimated_mean": 0.22667965307940924
+        },
+        {
+          "dataset": "heart",
+          "method": "fairsmote",
+          "n_observations": 70,
+          "actual_mean": 0.3009705615295677,
+          "estimated_mean": 0.23258128640316675
+        },
+        {
+          "dataset": "heart",
+          "method": "maat",
+          "n_observations": 70,
+          "actual_mean": 0.3323469008562177,
+          "estimated_mean": 0.21267111130951621
+        }
+      ]
+    },
+    "PED": {
+      "Kendall_tau": 0.7555555555555558,
+      "Kendall_p_value": 8.959177899883749e-11,
+      "Spearman_rho": 0.8993564993564993,
+      "Spearman_p_value": 9.118746547619398e-14,
+      "n_points": 36,
+      "n_datasets": 6,
+      "n_methods": 6,
+      "data_points": [
+        {
+          "dataset": "census",
+          "method": "vanilla",
+          "n_observations": 70,
+          "actual_mean": 0.20579427053299457,
+          "estimated_mean": 0.2857166063921721
+        },
+        {
+          "dataset": "census",
+          "method": "reweighing",
+          "n_observations": 70,
+          "actual_mean": 0.20286633915008412,
+          "estimated_mean": 0.2736866887604665
+        },
+        {
+          "dataset": "census",
+          "method": "flipping",
+          "n_observations": 70,
+          "actual_mean": 0.17352841998937027,
+          "estimated_mean": 0.24170142204820333
+        },
+        {
+          "dataset": "census",
+          "method": "blindness",
+          "n_observations": 70,
+          "actual_mean": 0.12413666544568959,
+          "estimated_mean": 0.19680791882371124
+        },
+        {
+          "dataset": "census",
+          "method": "fairsmote",
+          "n_observations": 70,
+          "actual_mean": 0.17867906442718895,
+          "estimated_mean": 0.22392719173746847
+        },
+        {
+          "dataset": "census",
+          "method": "maat",
+          "n_observations": 70,
+          "actual_mean": 0.09509401048084479,
+          "estimated_mean": 0.19718522606174674
+        },
+        {
+          "dataset": "ufrgs",
+          "method": "vanilla",
+          "n_observations": 70,
+          "actual_mean": 0.512251364306814,
+          "estimated_mean": 0.27282346544198227
+        },
+        {
+          "dataset": "ufrgs",
+          "method": "reweighing",
+          "n_observations": 70,
+          "actual_mean": 0.33752253159162365,
+          "estimated_mean": 0.24737325618466288
+        },
+        {
+          "dataset": "ufrgs",
+          "method": "flipping",
+          "n_observations": 70,
+          "actual_mean": 0.32410969670678585,
+          "estimated_mean": 0.16613490444425746
+        },
+        {
+          "dataset": "ufrgs",
+          "method": "blindness",
+          "n_observations": 70,
+          "actual_mean": 0.16757248147896253,
+          "estimated_mean": 0.10382261025687718
+        },
+        {
+          "dataset": "ufrgs",
+          "method": "fairsmote",
+          "n_observations": 70,
+          "actual_mean": 0.10765941553113248,
+          "estimated_mean": 0.15484758075246283
+        },
+        {
+          "dataset": "ufrgs",
+          "method": "maat",
+          "n_observations": 70,
+          "actual_mean": 0.4250746132247722,
+          "estimated_mean": 0.2392334391281133
+        },
+        {
+          "dataset": "compas",
+          "method": "vanilla",
+          "n_observations": 70,
+          "actual_mean": 0.6955137410532175,
+          "estimated_mean": 0.4296558384681324
+        },
+        {
+          "dataset": "compas",
+          "method": "reweighing",
+          "n_observations": 70,
+          "actual_mean": 0.6501017887394199,
+          "estimated_mean": 0.4236628066224386
+        },
+        {
+          "dataset": "compas",
+          "method": "flipping",
+          "n_observations": 70,
+          "actual_mean": 0.5193747077274686,
+          "estimated_mean": 0.3752341658981853
+        },
+        {
+          "dataset": "compas",
+          "method": "blindness",
+          "n_observations": 70,
+          "actual_mean": 0.43879489587949405,
+          "estimated_mean": 0.33232853620429625
+        },
+        {
+          "dataset": "compas",
+          "method": "fairsmote",
+          "n_observations": 70,
+          "actual_mean": 0.4913230165871872,
+          "estimated_mean": 0.5465089136764897
+        },
+        {
+          "dataset": "compas",
+          "method": "maat",
+          "n_observations": 70,
+          "actual_mean": 0.6066514970151151,
+          "estimated_mean": 0.37187187364602203
+        },
+        {
+          "dataset": "diabetes",
+          "method": "vanilla",
+          "n_observations": 70,
+          "actual_mean": 0.23295658183507184,
+          "estimated_mean": 0.13788150562779375
+        },
+        {
+          "dataset": "diabetes",
+          "method": "reweighing",
+          "n_observations": 70,
+          "actual_mean": 0.08182679258255322,
+          "estimated_mean": 0.054565559644095304
+        },
+        {
+          "dataset": "diabetes",
+          "method": "flipping",
+          "n_observations": 70,
+          "actual_mean": 0.14924399186843337,
+          "estimated_mean": 0.09428772476254198
+        },
+        {
+          "dataset": "diabetes",
+          "method": "blindness",
+          "n_observations": 70,
+          "actual_mean": 0.11897893162382538,
+          "estimated_mean": 0.06332783919998335
+        },
+        {
+          "dataset": "diabetes",
+          "method": "fairsmote",
+          "n_observations": 70,
+          "actual_mean": 0.08803499964307554,
+          "estimated_mean": 0.0566837456209659
+        },
+        {
+          "dataset": "diabetes",
+          "method": "maat",
+          "n_observations": 70,
+          "actual_mean": 0.09531237317622145,
+          "estimated_mean": 0.05422422704839483
+        },
+        {
+          "dataset": "bank",
+          "method": "vanilla",
+          "n_observations": 70,
+          "actual_mean": 0.0022847726627956634,
+          "estimated_mean": 0.012285118895435035
+        },
+        {
+          "dataset": "bank",
+          "method": "reweighing",
+          "n_observations": 70,
+          "actual_mean": 0.0028578215204681174,
+          "estimated_mean": 0.006582869185087121
+        },
+        {
+          "dataset": "bank",
+          "method": "flipping",
+          "n_observations": 70,
+          "actual_mean": 0.002283859399023508,
+          "estimated_mean": 0.010351120525801649
+        },
+        {
+          "dataset": "bank",
+          "method": "blindness",
+          "n_observations": 70,
+          "actual_mean": 0.0021804613023115797,
+          "estimated_mean": 0.00700622618775523
+        },
+        {
+          "dataset": "bank",
+          "method": "fairsmote",
+          "n_observations": 70,
+          "actual_mean": 0.04295492419354378,
+          "estimated_mean": 0.03888947493419608
+        },
+        {
+          "dataset": "bank",
+          "method": "maat",
+          "n_observations": 70,
+          "actual_mean": 0.002195707553828108,
+          "estimated_mean": 0.008561235096623616
+        },
+        {
+          "dataset": "heart",
+          "method": "vanilla",
+          "n_observations": 70,
+          "actual_mean": 0.28780642725744454,
+          "estimated_mean": 0.25973734728496994
+        },
+        {
+          "dataset": "heart",
+          "method": "reweighing",
+          "n_observations": 70,
+          "actual_mean": 0.245654757609092,
+          "estimated_mean": 0.24571277321176307
+        },
+        {
+          "dataset": "heart",
+          "method": "flipping",
+          "n_observations": 70,
+          "actual_mean": 0.27794631758972754,
+          "estimated_mean": 0.2518863395781975
+        },
+        {
+          "dataset": "heart",
+          "method": "blindness",
+          "n_observations": 70,
+          "actual_mean": 0.25617873637002336,
+          "estimated_mean": 0.22374041603608857
+        },
+        {
+          "dataset": "heart",
+          "method": "fairsmote",
+          "n_observations": 70,
+          "actual_mean": 0.2375123088126184,
+          "estimated_mean": 0.2322071429543477
+        },
+        {
+          "dataset": "heart",
+          "method": "maat",
+          "n_observations": 70,
+          "actual_mean": 0.22778785572626795,
+          "estimated_mean": 0.22288566853463007
+        }
+      ]
+    },
+    "AOD": {
+      "Kendall_tau": 0.6095238095238096,
+      "Kendall_p_value": 1.6912229241424498e-07,
+      "Spearman_rho": 0.7644787644787645,
+      "Spearman_p_value": 5.733512034932121e-08,
+      "n_points": 36,
+      "n_datasets": 6,
+      "n_methods": 6,
+      "data_points": [
+        {
+          "dataset": "census",
+          "method": "vanilla",
+          "n_observations": 70,
+          "actual_mean": 0.2957493361830688,
+          "estimated_mean": 0.389628633009764
+        },
+        {
+          "dataset": "census",
+          "method": "reweighing",
+          "n_observations": 70,
+          "actual_mean": 0.26155547659099765,
+          "estimated_mean": 0.3719086526990059
+        },
+        {
+          "dataset": "census",
+          "method": "flipping",
+          "n_observations": 70,
+          "actual_mean": 0.2437415366933725,
+          "estimated_mean": 0.3361075430172416
+        },
+        {
+          "dataset": "census",
+          "method": "blindness",
+          "n_observations": 70,
+          "actual_mean": 0.17500307137593754,
+          "estimated_mean": 0.3057152901756079
+        },
+        {
+          "dataset": "census",
+          "method": "fairsmote",
+          "n_observations": 70,
+          "actual_mean": 0.1813281161721629,
+          "estimated_mean": 0.342291098985999
+        },
+        {
+          "dataset": "census",
+          "method": "maat",
+          "n_observations": 70,
+          "actual_mean": 0.1572570140756844,
+          "estimated_mean": 0.2967905256158805
+        },
+        {
+          "dataset": "ufrgs",
+          "method": "vanilla",
+          "n_observations": 70,
+          "actual_mean": 0.504450851693579,
+          "estimated_mean": 0.2458759936906009
+        },
+        {
+          "dataset": "ufrgs",
+          "method": "reweighing",
+          "n_observations": 70,
+          "actual_mean": 0.35917904763184333,
+          "estimated_mean": 0.22111313415003628
+        },
+        {
+          "dataset": "ufrgs",
+          "method": "flipping",
+          "n_observations": 70,
+          "actual_mean": 0.30709697898051014,
+          "estimated_mean": 0.1419903537603693
+        },
+        {
+          "dataset": "ufrgs",
+          "method": "blindness",
+          "n_observations": 70,
+          "actual_mean": 0.15944841396670664,
+          "estimated_mean": 0.09215125939416055
+        },
+        {
+          "dataset": "ufrgs",
+          "method": "fairsmote",
+          "n_observations": 70,
+          "actual_mean": 0.11279176698747778,
+          "estimated_mean": 0.13114035203347235
+        },
+        {
+          "dataset": "ufrgs",
+          "method": "maat",
+          "n_observations": 70,
+          "actual_mean": 0.4215614302436176,
+          "estimated_mean": 0.20765107691146906
+        },
+        {
+          "dataset": "compas",
+          "method": "vanilla",
+          "n_observations": 70,
+          "actual_mean": 0.6233266281110782,
+          "estimated_mean": 0.35071994447952193
+        },
+        {
+          "dataset": "compas",
+          "method": "reweighing",
+          "n_observations": 70,
+          "actual_mean": 0.5572305130276665,
+          "estimated_mean": 0.34005082350383403
+        },
+        {
+          "dataset": "compas",
+          "method": "flipping",
+          "n_observations": 70,
+          "actual_mean": 0.42975431459304514,
+          "estimated_mean": 0.2864380593993847
+        },
+        {
+          "dataset": "compas",
+          "method": "blindness",
+          "n_observations": 70,
+          "actual_mean": 0.3135494881895829,
+          "estimated_mean": 0.23846375535937386
+        },
+        {
+          "dataset": "compas",
+          "method": "fairsmote",
+          "n_observations": 70,
+          "actual_mean": 0.3799964429897245,
+          "estimated_mean": 0.3696874885643509
+        },
+        {
+          "dataset": "compas",
+          "method": "maat",
+          "n_observations": 70,
+          "actual_mean": 0.5215252089270193,
+          "estimated_mean": 0.3053219093033572
+        },
+        {
+          "dataset": "diabetes",
+          "method": "vanilla",
+          "n_observations": 70,
+          "actual_mean": 0.22843180598346619,
+          "estimated_mean": 0.17969920166740297
+        },
+        {
+          "dataset": "diabetes",
+          "method": "reweighing",
+          "n_observations": 70,
+          "actual_mean": 0.050891880393902106,
+          "estimated_mean": 0.035601350746528766
+        },
+        {
+          "dataset": "diabetes",
+          "method": "flipping",
+          "n_observations": 70,
+          "actual_mean": 0.15933975852609727,
+          "estimated_mean": 0.13182479291909513
+        },
+        {
+          "dataset": "diabetes",
+          "method": "blindness",
+          "n_observations": 70,
+          "actual_mean": 0.12604099321193615,
+          "estimated_mean": 0.09732221213787809
+        },
+        {
+          "dataset": "diabetes",
+          "method": "fairsmote",
+          "n_observations": 70,
+          "actual_mean": 0.06593481770067013,
+          "estimated_mean": 0.050305476277504535
+        },
+        {
+          "dataset": "diabetes",
+          "method": "maat",
+          "n_observations": 70,
+          "actual_mean": 0.09557167097704292,
+          "estimated_mean": 0.08651032983254905
+        },
+        {
+          "dataset": "bank",
+          "method": "vanilla",
+          "n_observations": 70,
+          "actual_mean": 0.013780397778917793,
+          "estimated_mean": 0.02798216626398072
+        },
+        {
+          "dataset": "bank",
+          "method": "reweighing",
+          "n_observations": 70,
+          "actual_mean": 0.017901304226290243,
+          "estimated_mean": 0.027765611396583834
+        },
+        {
+          "dataset": "bank",
+          "method": "flipping",
+          "n_observations": 70,
+          "actual_mean": 0.011703775003162562,
+          "estimated_mean": 0.028007175931395584
+        },
+        {
+          "dataset": "bank",
+          "method": "blindness",
+          "n_observations": 70,
+          "actual_mean": 0.010002676279690726,
+          "estimated_mean": 0.027312483891471017
+        },
+        {
+          "dataset": "bank",
+          "method": "fairsmote",
+          "n_observations": 70,
+          "actual_mean": 0.04803210650021828,
+          "estimated_mean": 0.05315177569086701
+        },
+        {
+          "dataset": "bank",
+          "method": "maat",
+          "n_observations": 70,
+          "actual_mean": 0.015486494826129562,
+          "estimated_mean": 0.027355740805639992
+        },
+        {
+          "dataset": "heart",
+          "method": "vanilla",
+          "n_observations": 70,
+          "actual_mean": 0.42423219267971013,
+          "estimated_mean": 0.39045496026782994
+        },
+        {
+          "dataset": "heart",
+          "method": "reweighing",
+          "n_observations": 70,
+          "actual_mean": 0.40440443340607757,
+          "estimated_mean": 0.37834943299713475
+        },
+        {
+          "dataset": "heart",
+          "method": "flipping",
+          "n_observations": 70,
+          "actual_mean": 0.4141571778959886,
+          "estimated_mean": 0.3832929861371884
+        },
+        {
+          "dataset": "heart",
+          "method": "blindness",
+          "n_observations": 70,
+          "actual_mean": 0.4010189784144532,
+          "estimated_mean": 0.35726148064733837
+        },
+        {
+          "dataset": "heart",
+          "method": "fairsmote",
+          "n_observations": 70,
+          "actual_mean": 0.38571209518720956,
+          "estimated_mean": 0.3768095945005799
+        },
+        {
+          "dataset": "heart",
+          "method": "maat",
+          "n_observations": 70,
+          "actual_mean": 0.399935374248647,
+          "estimated_mean": 0.3635323454857838
+        }
+      ]
+    },
+    "CFVR": {
+      "Kendall_tau": 0.9186991869918698,
+      "Kendall_p_value": 1.0235579982901235e-14,
+      "Spearman_rho": 0.980607627666451,
+      "Spearman_p_value": 1.1921514769297785e-25,
+      "n_points": 36,
+      "n_datasets": 6,
+      "n_methods": 6,
+      "data_points": [
+        {
+          "dataset": "census",
+          "method": "vanilla",
+          "n_observations": 70,
+          "actual_mean": 0.18779028464076536,
+          "estimated_mean": 0.19730329531098562
+        },
+        {
+          "dataset": "census",
+          "method": "reweighing",
+          "n_observations": 70,
+          "actual_mean": 0.17694772903083214,
+          "estimated_mean": 0.17193252295639086
+        },
+        {
+          "dataset": "census",
+          "method": "flipping",
+          "n_observations": 70,
+          "actual_mean": 0.09850970115087697,
+          "estimated_mean": 0.08501190900106173
+        },
+        {
+          "dataset": "census",
+          "method": "blindness",
+          "n_observations": 70,
+          "actual_mean": 0.0,
+          "estimated_mean": 0.0
+        },
+        {
+          "dataset": "census",
+          "method": "fairsmote",
+          "n_observations": 70,
+          "actual_mean": 0.160958590530919,
+          "estimated_mean": 0.16199018239012797
+        },
+        {
+          "dataset": "census",
+          "method": "maat",
+          "n_observations": 70,
+          "actual_mean": 0.1074641238968789,
+          "estimated_mean": 0.13183803117954393
+        },
+        {
+          "dataset": "ufrgs",
+          "method": "vanilla",
+          "n_observations": 70,
+          "actual_mean": 0.505220097430089,
+          "estimated_mean": 0.2695193167325009
+        },
+        {
+          "dataset": "ufrgs",
+          "method": "reweighing",
+          "n_observations": 70,
+          "actual_mean": 0.3772380879070125,
+          "estimated_mean": 0.2423011451051377
+        },
+        {
+          "dataset": "ufrgs",
+          "method": "flipping",
+          "n_observations": 70,
+          "actual_mean": 0.26106645259905203,
+          "estimated_mean": 0.13169526004412366
+        },
+        {
+          "dataset": "ufrgs",
+          "method": "blindness",
+          "n_observations": 70,
+          "actual_mean": 0.0,
+          "estimated_mean": 0.0
+        },
+        {
+          "dataset": "ufrgs",
+          "method": "fairsmote",
+          "n_observations": 70,
+          "actual_mean": 0.18370300317802435,
+          "estimated_mean": 0.16404620282779178
+        },
+        {
+          "dataset": "ufrgs",
+          "method": "maat",
+          "n_observations": 70,
+          "actual_mean": 0.44998955320716544,
+          "estimated_mean": 0.23750131521886259
+        },
+        {
+          "dataset": "compas",
+          "method": "vanilla",
+          "n_observations": 70,
+          "actual_mean": 0.5866578686902013,
+          "estimated_mean": 0.3602544060861191
+        },
+        {
+          "dataset": "compas",
+          "method": "reweighing",
+          "n_observations": 70,
+          "actual_mean": 0.5566281755196306,
+          "estimated_mean": 0.35372542438218596
+        },
+        {
+          "dataset": "compas",
+          "method": "flipping",
+          "n_observations": 70,
+          "actual_mean": 0.31733421313097987,
+          "estimated_mean": 0.1942521117463675
+        },
+        {
+          "dataset": "compas",
+          "method": "blindness",
+          "n_observations": 70,
+          "actual_mean": 0.0,
+          "estimated_mean": 0.0
+        },
+        {
+          "dataset": "compas",
+          "method": "fairsmote",
+          "n_observations": 70,
+          "actual_mean": 0.2548597822500825,
+          "estimated_mean": 0.33709975072699183
+        },
+        {
+          "dataset": "compas",
+          "method": "maat",
+          "n_observations": 70,
+          "actual_mean": 0.5068558231606731,
+          "estimated_mean": 0.31020026164875514
+        },
+        {
+          "dataset": "diabetes",
+          "method": "vanilla",
+          "n_observations": 70,
+          "actual_mean": 0.15596784168212738,
+          "estimated_mean": 0.13841655215121387
+        },
+        {
+          "dataset": "diabetes",
+          "method": "reweighing",
+          "n_observations": 70,
+          "actual_mean": 0.07940630797773655,
+          "estimated_mean": 0.07128100966486645
+        },
+        {
+          "dataset": "diabetes",
+          "method": "flipping",
+          "n_observations": 70,
+          "actual_mean": 0.05701917130488558,
+          "estimated_mean": 0.05360833667234083
+        },
+        {
+          "dataset": "diabetes",
+          "method": "blindness",
+          "n_observations": 70,
+          "actual_mean": 0.0,
+          "estimated_mean": 0.0
+        },
+        {
+          "dataset": "diabetes",
+          "method": "fairsmote",
+          "n_observations": 70,
+          "actual_mean": 0.10519480519480519,
+          "estimated_mean": 0.08184551258246554
+        },
+        {
+          "dataset": "diabetes",
+          "method": "maat",
+          "n_observations": 70,
+          "actual_mean": 0.07056277056277056,
+          "estimated_mean": 0.0718605569985058
+        },
+        {
+          "dataset": "bank",
+          "method": "vanilla",
+          "n_observations": 70,
+          "actual_mean": 0.006436154526688292,
+          "estimated_mean": 0.02335973058940198
+        },
+        {
+          "dataset": "bank",
+          "method": "reweighing",
+          "n_observations": 70,
+          "actual_mean": 0.007650503433458313,
+          "estimated_mean": 0.0205020292693754
+        },
+        {
+          "dataset": "bank",
+          "method": "flipping",
+          "n_observations": 70,
+          "actual_mean": 0.004836331465644351,
+          "estimated_mean": 0.014498842548259403
+        },
+        {
+          "dataset": "bank",
+          "method": "blindness",
+          "n_observations": 70,
+          "actual_mean": 0.0,
+          "estimated_mean": 0.0
+        },
+        {
+          "dataset": "bank",
+          "method": "fairsmote",
+          "n_observations": 70,
+          "actual_mean": 0.03521401188018705,
+          "estimated_mean": 0.05312423584338118
+        },
+        {
+          "dataset": "bank",
+          "method": "maat",
+          "n_observations": 70,
+          "actual_mean": 0.007824282765303113,
+          "estimated_mean": 0.02141566316314913
+        },
+        {
+          "dataset": "heart",
+          "method": "vanilla",
+          "n_observations": 70,
+          "actual_mean": 0.1332263242375602,
+          "estimated_mean": 0.13375645120476587
+        },
+        {
+          "dataset": "heart",
+          "method": "reweighing",
+          "n_observations": 70,
+          "actual_mean": 0.10674157303370786,
+          "estimated_mean": 0.12080780265974797
+        },
+        {
+          "dataset": "heart",
+          "method": "flipping",
+          "n_observations": 70,
+          "actual_mean": 0.05601926163723916,
+          "estimated_mean": 0.05483142354487851
+        },
+        {
+          "dataset": "heart",
+          "method": "blindness",
+          "n_observations": 70,
+          "actual_mean": 0.0,
+          "estimated_mean": 0.0
+        },
+        {
+          "dataset": "heart",
+          "method": "fairsmote",
+          "n_observations": 70,
+          "actual_mean": 0.09983948635634028,
+          "estimated_mean": 0.09771716371980245
+        },
+        {
+          "dataset": "heart",
+          "method": "maat",
+          "n_observations": 70,
+          "actual_mean": 0.09518459069020867,
+          "estimated_mean": 0.10181645813467577
+        }
+      ]
+    },
+    "GIFVR": {
+      "Kendall_tau": 0.8412698412698413,
+      "Kendall_p_value": 5.234281036573163e-13,
+      "Spearman_rho": 0.9606177606177606,
+      "Spearman_p_value": 1.7387610642330352e-20,
+      "n_points": 36,
+      "n_datasets": 6,
+      "n_methods": 6,
+      "data_points": [
+        {
+          "dataset": "census",
+          "method": "vanilla",
+          "n_observations": 70,
+          "actual_mean": 0.9679522599182231,
+          "estimated_mean": 0.843441248400871
+        },
+        {
+          "dataset": "census",
+          "method": "reweighing",
+          "n_observations": 70,
+          "actual_mean": 0.9626114961400629,
+          "estimated_mean": 0.8387077662134027
+        },
+        {
+          "dataset": "census",
+          "method": "flipping",
+          "n_observations": 70,
+          "actual_mean": 0.9633613816838484,
+          "estimated_mean": 0.8538023384175345
+        },
+        {
+          "dataset": "census",
+          "method": "blindness",
+          "n_observations": 70,
+          "actual_mean": 0.9413463208247161,
+          "estimated_mean": 0.8168584591954694
+        },
+        {
+          "dataset": "census",
+          "method": "fairsmote",
+          "n_observations": 70,
+          "actual_mean": 0.8921475143267606,
+          "estimated_mean": 0.8351606137174029
+        },
+        {
+          "dataset": "census",
+          "method": "maat",
+          "n_observations": 70,
+          "actual_mean": 0.9682380057780656,
+          "estimated_mean": 0.8276023874575617
+        },
+        {
+          "dataset": "ufrgs",
+          "method": "vanilla",
+          "n_observations": 70,
+          "actual_mean": 0.8031087456150963,
+          "estimated_mean": 0.5019051909359182
+        },
+        {
+          "dataset": "ufrgs",
+          "method": "reweighing",
+          "n_observations": 70,
+          "actual_mean": 0.7119753235756621,
+          "estimated_mean": 0.47248954941425925
+        },
+        {
+          "dataset": "ufrgs",
+          "method": "flipping",
+          "n_observations": 70,
+          "actual_mean": 0.7864081726909838,
+          "estimated_mean": 0.49767391367374175
+        },
+        {
+          "dataset": "ufrgs",
+          "method": "blindness",
+          "n_observations": 70,
+          "actual_mean": 0.7327633416541122,
+          "estimated_mean": 0.4359957724611959
+        },
+        {
+          "dataset": "ufrgs",
+          "method": "fairsmote",
+          "n_observations": 70,
+          "actual_mean": 0.773681779693634,
+          "estimated_mean": 0.6536607903642268
+        },
+        {
+          "dataset": "ufrgs",
+          "method": "maat",
+          "n_observations": 70,
+          "actual_mean": 0.7844155844155843,
+          "estimated_mean": 0.4724966893947029
+        },
+        {
+          "dataset": "compas",
+          "method": "vanilla",
+          "n_observations": 70,
+          "actual_mean": 0.5021972946222368,
+          "estimated_mean": 0.31740902362442025
+        },
+        {
+          "dataset": "compas",
+          "method": "reweighing",
+          "n_observations": 70,
+          "actual_mean": 0.49435169910920496,
+          "estimated_mean": 0.3197345281608899
+        },
+        {
+          "dataset": "compas",
+          "method": "flipping",
+          "n_observations": 70,
+          "actual_mean": 0.34949521610029693,
+          "estimated_mean": 0.21386526877123566
+        },
+        {
+          "dataset": "compas",
+          "method": "blindness",
+          "n_observations": 70,
+          "actual_mean": 0.19253711646321348,
+          "estimated_mean": 0.11159324391128253
+        },
+        {
+          "dataset": "compas",
+          "method": "fairsmote",
+          "n_observations": 70,
+          "actual_mean": 0.34824150445397556,
+          "estimated_mean": 0.3953416742930646
+        },
+        {
+          "dataset": "compas",
+          "method": "maat",
+          "n_observations": 70,
+          "actual_mean": 0.44173540085780266,
+          "estimated_mean": 0.28151424318724977
+        },
+        {
+          "dataset": "diabetes",
+          "method": "vanilla",
+          "n_observations": 70,
+          "actual_mean": 0.5497835497835499,
+          "estimated_mean": 0.4328801075467173
+        },
+        {
+          "dataset": "diabetes",
+          "method": "reweighing",
+          "n_observations": 70,
+          "actual_mean": 0.5313543599257886,
+          "estimated_mean": 0.40881560699247643
+        },
+        {
+          "dataset": "diabetes",
+          "method": "flipping",
+          "n_observations": 70,
+          "actual_mean": 0.5144712430426716,
+          "estimated_mean": 0.43019534617617033
+        },
+        {
+          "dataset": "diabetes",
+          "method": "blindness",
+          "n_observations": 70,
+          "actual_mean": 0.4147186147186147,
+          "estimated_mean": 0.3378097604934183
+        },
+        {
+          "dataset": "diabetes",
+          "method": "fairsmote",
+          "n_observations": 70,
+          "actual_mean": 0.6102040816326529,
+          "estimated_mean": 0.4779857771494093
+        },
+        {
+          "dataset": "diabetes",
+          "method": "maat",
+          "n_observations": 70,
+          "actual_mean": 0.4683982683982684,
+          "estimated_mean": 0.36639421009444384
+        },
+        {
+          "dataset": "bank",
+          "method": "vanilla",
+          "n_observations": 70,
+          "actual_mean": 0.057232379828959005,
+          "estimated_mean": 0.1552024717045078
+        },
+        {
+          "dataset": "bank",
+          "method": "reweighing",
+          "n_observations": 70,
+          "actual_mean": 0.07338753844209463,
+          "estimated_mean": 0.1584802865861822
+        },
+        {
+          "dataset": "bank",
+          "method": "flipping",
+          "n_observations": 70,
+          "actual_mean": 0.0800869949867296,
+          "estimated_mean": 0.17927150159426536
+        },
+        {
+          "dataset": "bank",
+          "method": "blindness",
+          "n_observations": 70,
+          "actual_mean": 0.05629713106121245,
+          "estimated_mean": 0.15734608828867325
+        },
+        {
+          "dataset": "bank",
+          "method": "fairsmote",
+          "n_observations": 70,
+          "actual_mean": 0.4295582845346927,
+          "estimated_mean": 0.427699026290257
+        },
+        {
+          "dataset": "bank",
+          "method": "maat",
+          "n_observations": 70,
+          "actual_mean": 0.07168555419808736,
+          "estimated_mean": 0.14959778042507313
+        },
+        {
+          "dataset": "heart",
+          "method": "vanilla",
+          "n_observations": 70,
+          "actual_mean": 0.23386837881219905,
+          "estimated_mean": 0.23073882134013185
+        },
+        {
+          "dataset": "heart",
+          "method": "reweighing",
+          "n_observations": 70,
+          "actual_mean": 0.2146067415730337,
+          "estimated_mean": 0.21584937895138764
+        },
+        {
+          "dataset": "heart",
+          "method": "flipping",
+          "n_observations": 70,
+          "actual_mean": 0.18394863563402888,
+          "estimated_mean": 0.18023010832735217
+        },
+        {
+          "dataset": "heart",
+          "method": "blindness",
+          "n_observations": 70,
+          "actual_mean": 0.14558587479935797,
+          "estimated_mean": 0.1366971893222974
+        },
+        {
+          "dataset": "heart",
+          "method": "fairsmote",
+          "n_observations": 70,
+          "actual_mean": 0.18764044943820224,
+          "estimated_mean": 0.18568607718589522
+        },
+        {
+          "dataset": "heart",
+          "method": "maat",
+          "n_observations": 70,
+          "actual_mean": 0.19245585874799356,
+          "estimated_mean": 0.1918768438492629
+        }
+      ]
+    }
+  },
+  "method_level": {
+    "accuracy": {
+      "Kendall_tau": 0.7333333333333333,
+      "Kendall_p_value": 0.05555555555555555,
+      "Spearman_rho": 0.8285714285714287,
+      "Spearman_p_value": 0.04156268221574334,
+      "n_methods": 6,
+      "method_names": [
+        "vanilla",
+        "reweighing",
+        "flipping",
+        "blindness",
+        "fairsmote",
+        "maat"
+      ],
+      "actual_means": [
+        0.7692416262998322,
+        0.7651290448390873,
+        0.7650357572520713,
+        0.7625188589850456,
+        0.7206981239672758,
+        0.7687485485482135
+      ],
+      "estimated_means": [
+        0.6933958514303105,
+        0.6892138024143785,
+        0.6933403590077625,
+        0.6863962682167194,
+        0.6610815411446094,
+        0.6918300984177623
+      ]
+    },
+    "recall": {
+      "Kendall_tau": 0.7333333333333333,
+      "Kendall_p_value": 0.05555555555555555,
+      "Spearman_rho": 0.8285714285714287,
+      "Spearman_p_value": 0.04156268221574334,
+      "n_methods": 6,
+      "method_names": [
+        "vanilla",
+        "reweighing",
+        "flipping",
+        "blindness",
+        "fairsmote",
+        "maat"
+      ],
+      "actual_means": [
+        0.6911034508566345,
+        0.6860799971724816,
+        0.6865327226323641,
+        0.6818422338886148,
+        0.6929151197068807,
+        0.6811177082067613
+      ],
+      "estimated_means": [
+        0.5636014546415414,
+        0.5641292856020277,
+        0.5657752756733228,
+        0.5563704987332156,
+        0.610981472312633,
+        0.5444404393300631
+      ]
+    },
+    "FPR": {
+      "Kendall_tau": 0.8666666666666666,
+      "Kendall_p_value": 0.016666666666666666,
+      "Spearman_rho": 0.942857142857143,
+      "Spearman_p_value": 0.004804664723032055,
+      "n_methods": 6,
+      "method_names": [
+        "vanilla",
+        "reweighing",
+        "flipping",
+        "blindness",
+        "fairsmote",
+        "maat"
+      ],
+      "actual_means": [
+        0.2225970652352328,
+        0.23000421439423277,
+        0.22737635337651405,
+        0.2289639707142711,
+        0.2614364285786773,
+        0.21949535262040615
+      ],
+      "estimated_means": [
+        0.3019547794186308,
+        0.30894399830656594,
+        0.3029649474524961,
+        0.3091736597672974,
+        0.3226058312465014,
+        0.2980272743018857
+      ]
+    },
+    "SPD": {
+      "Kendall_tau": 0.7333333333333333,
+      "Kendall_p_value": 0.05555555555555555,
+      "Spearman_rho": 0.8857142857142858,
+      "Spearman_p_value": 0.01884548104956266,
+      "n_methods": 6,
+      "method_names": [
+        "vanilla",
+        "reweighing",
+        "flipping",
+        "blindness",
+        "fairsmote",
+        "maat"
+      ],
+      "actual_means": [
+        0.4182844702417372,
+        0.34450947086201744,
+        0.33641183965497534,
+        0.2699043646318797,
+        0.2615794031447945,
+        0.3399661729650801
+      ],
+      "estimated_means": [
+        0.3016309779678864,
+        0.26482907965671265,
+        0.25155575382351275,
+        0.20816254135423834,
+        0.24113506666015455,
+        0.24960719593599578
+      ]
+    },
+    "EOD": {
+      "Kendall_tau": 0.4666666666666666,
+      "Kendall_p_value": 0.2722222222222222,
+      "Spearman_rho": 0.4285714285714286,
+      "Spearman_p_value": 0.3965014577259474,
+      "n_methods": 6,
+      "method_names": [
+        "vanilla",
+        "reweighing",
+        "flipping",
+        "blindness",
+        "fairsmote",
+        "maat"
+      ],
+      "actual_means": [
+        0.3403443312664277,
+        0.27957613066733106,
+        0.25932579394643557,
+        0.20297465134047787,
+        0.1980451058874752,
+        0.2738875895261252
+      ],
+      "estimated_means": [
+        0.2618405082153762,
+        0.23210455212176825,
+        0.22024527114546827,
+        0.1959847175223785,
+        0.24343805253810988,
+        0.22368481008887586
+      ]
+    },
+    "PED": {
+      "Kendall_tau": 0.4666666666666666,
+      "Kendall_p_value": 0.2722222222222222,
+      "Spearman_rho": 0.6,
+      "Spearman_p_value": 0.20799999999999982,
+      "n_methods": 6,
+      "method_names": [
+        "vanilla",
+        "reweighing",
+        "flipping",
+        "blindness",
+        "fairsmote",
+        "maat"
+      ],
+      "actual_means": [
+        0.3227678596080563,
+        0.2534716718655402,
+        0.24108116554680156,
+        0.18464036201671777,
+        0.19102728819912443,
+        0.24201934286284163
+      ],
+      "estimated_means": [
+        0.23301664701841424,
+        0.2085973256014189,
+        0.18993261287619786,
+        0.15450559111811862,
+        0.2088440082793218,
+        0.18232694491925508
+      ]
+    },
+    "AOD": {
+      "Kendall_tau": 0.4666666666666666,
+      "Kendall_p_value": 0.2722222222222222,
+      "Spearman_rho": 0.6,
+      "Spearman_p_value": 0.20799999999999982,
+      "n_methods": 6,
+      "method_names": [
+        "vanilla",
+        "reweighing",
+        "flipping",
+        "blindness",
+        "fairsmote",
+        "maat"
+      ],
+      "actual_means": [
+        0.34832853540497005,
+        0.27519377587946287,
+        0.26096559028202937,
+        0.19751060357305117,
+        0.1956325575895772,
+        0.26855619888302346
+      ],
+      "estimated_means": [
+        0.2640601498965167,
+        0.22913150091552062,
+        0.21794348519411244,
+        0.1863710802676383,
+        0.2205642976754623,
+        0.2145269879924466
+      ]
+    },
+    "CFVR": {
+      "Kendall_tau": 0.8666666666666666,
+      "Kendall_p_value": 0.016666666666666666,
+      "Spearman_rho": 0.942857142857143,
+      "Spearman_p_value": 0.004804664723032055,
+      "n_methods": 6,
+      "method_names": [
+        "vanilla",
+        "reweighing",
+        "flipping",
+        "blindness",
+        "fairsmote",
+        "maat"
+      ],
+      "actual_means": [
+        0.26254976186790524,
+        0.21743539615039634,
+        0.132464188548113,
+        0.0,
+        0.1399616132317264,
+        0.20631352404716666
+      ],
+      "estimated_means": [
+        0.18710162534583125,
+        0.16342498900628402,
+        0.08898298059283859,
+        0.0,
+        0.14930384134842678,
+        0.14577204772391542
+      ]
+    },
+    "GIFVR": {
+      "Kendall_tau": 0.8666666666666666,
+      "Kendall_p_value": 0.016666666666666666,
+      "Spearman_rho": 0.942857142857143,
+      "Spearman_p_value": 0.004804664723032055,
+      "n_methods": 6,
+      "method_names": [
+        "vanilla",
+        "reweighing",
+        "flipping",
+        "blindness",
+        "fairsmote",
+        "maat"
+      ],
+      "actual_means": [
+        0.5190237680967107,
+        0.4980478597943078,
+        0.4796286073564265,
+        0.41387473325353785,
+        0.5402456023466531,
+        0.4878214453993003
+      ],
+      "estimated_means": [
+        0.4135961439254277,
+        0.40234618605309963,
+        0.3925064128267166,
+        0.33271675227872277,
+        0.4959223265000426,
+        0.38158035906804905
+      ]
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "accuracy-AOD": {
+    "r_squared": 0.9295437699075747,
+    "main_effects_omega_squared": 0.2963860609026123,
+    "interaction_omega_squared": 0.5926596316943709,
+    "omega_squared_by_term": {
+      "dataset": 0.15746503798907427,
+      "model": 0.12652129261422412,
+      "method": 0.012399730299313946,
+      "dataset:model": 0.557497578355641,
+      "dataset:method": 0.03516205333872994,
+      "model:method": 0.0
+    }
+  },
+  "accuracy-CFVR": {
+    "r_squared": 0.765654173142662,
+    "main_effects_omega_squared": 0.30981409607071403,
+    "interaction_omega_squared": 0.2970990365886509,
+    "omega_squared_by_term": {
+      "dataset": 0.11589788565369873,
+      "model": 0.11798388553267722,
+      "method": 0.0759323248843381,
+      "dataset:model": 0.20681045714862567,
+      "dataset:method": 0.03362705624464845,
+      "model:method": 0.05666152319537676
+    }
+  },
+  "AOD-CFVR": {
+    "r_squared": 0.9249392463792603,
+    "main_effects_omega_squared": 0.6025189106936997,
+    "interaction_omega_squared": 0.2714420937700621,
+    "omega_squared_by_term": {
+      "dataset": 0.1912525992062938,
+      "model": 0.052806216129132715,
+      "method": 0.3584600953582731,
+      "dataset:model": 0.011305867553183644,
+      "dataset:method": 0.2442558855130067,
+      "model:method": 0.015880340703871815
+    }
+  }
+}
